@@ -43,18 +43,28 @@ p {
 
 .apresentacao_links {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    gap: 32px;
+}
+
+.apresentacao_links h2 {
+    font-family: 'krona One', 'sans-serif';
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .apresentacao_links_link {
-    background-color: #22d4fd;
-    width: 280px;
+    /* background-color: #22d4fd; */
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color: black;
+    color: #f6f6f6;
+    border: #22d4fd solid 2px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     margin: 2px 0;
